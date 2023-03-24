@@ -1,0 +1,42 @@
+:root {
+    --dark: #222;
+    --med-dark: indigo;
+    --medium: purple;
+    --light: #fff;
+    font-size: 12px;
+}
+
+header h1 {
+    font-size: 200%;
+    color: var(--medium);
+    background-color: var(--dark);
+}
+
+header p {
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-box {
+    border-style: dashed;
+    border-color: var(--light);
+}
+
+.grid-header {
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    background-color: var(--dark);
+    color: var(--medium);
+    z-index: 10;
+}
+
+.snippet-box {
+    background-image: linear-gradient(var(--med-dark), var(--medium));
+
+}
