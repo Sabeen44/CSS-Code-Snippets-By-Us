@@ -3,40 +3,89 @@
     --med-dark: indigo;
     --medium: purple;
     --light: #fff;
-    font-size: 12px;
+    --radius: 5px;
+    font-size: 14px;
+    background-color: var(--dark);
+}
+
+header {
+    text-align: center;
+    display: block;
 }
 
 header h1 {
+    padding: 20px;
     font-size: 200%;
     color: var(--medium);
     background-color: var(--dark);
 }
 
 header p {
+    padding-bottom: 40px;
+    width: 60%;
+    margin: auto;
     color: var(--light);
     background-color: var(--dark);
 }
 
+
 .wrapper {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    grid-template-columns: 320px 320px 320px;
     flex-wrap: wrap;
+    width: 80%;
+    background-color: var(--dark);
 }
 
 .grid-box {
+    display: flex;
     border-style: dashed;
     border-color: var(--light);
+    border-width: 1px;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
 }
 
 .grid-header {
+    padding: 5px;
     border-style: solid;
     border-radius: 10px;
-    position: absolute;
+    border-width: 1px;
+    border-color: var(--light);
     background-color: var(--dark);
     color: var(--medium);
     z-index: 10;
+    position: absolute;
+    margin-top: -35px;
+}
+
+.grid-content {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.grid-header h2 {
+    padding: 5px;
+    font-size: 150%;
+}
+
+.grid-box p {
+    display: block;
+    color: var(--light);
 }
 
 .snippet-box {
+    display: block;
+    border-radius: var(--radius);
     background-image: linear-gradient(var(--med-dark), var(--medium));
-
+    width: 80%;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
