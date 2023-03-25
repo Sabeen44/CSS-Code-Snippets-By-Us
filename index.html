@@ -25,7 +25,13 @@
           </div>
           <div class="grid-content">
             <p>Use these three properties to create a Flexbox row layout.</p>
-            <div class="snippet-box">snippet code</div>
+            <div class="snippet-box"><pre>
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+            </pre></div>
           </div>
         </div>
 
@@ -35,7 +41,12 @@
           </div>
           <div class="grid-content">
             <p>Use this to create a flexbox column layout.</p>
-            <div class="snippet-box">snippet code</div>
+            <div class="snippet-box"><pre>
+.column {
+  display: flex;
+  flex-direction: column;
+}
+            </pre></div>
           </div>
         </div>
 
@@ -45,7 +56,13 @@
           </div>
           <div class="grid-content">
             <p>Build a 12-column layout using CSS Grid.</p>
-            <div class="snippet-box">snippet code</div>
+            <div class="snippet-box"><pre>
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+}
+            </pre></div>
           </div>
         </div>
 
@@ -54,8 +71,12 @@
             <h2>Linear Gradients</h2>
           </div>
           <div class="grid-content">
-            <p>Description of the snippet</p>
-            <div class="snippet-box">snippet code</div>
+            <p>This will create a linear gradient from top to bottom.</p>
+            <div class="snippet-box"><pre>
+.linear-gradient-background {
+  background-image: linear-gradient(indigo, pink);
+}
+            </pre></div>
           </div>
           </div>
 
@@ -64,8 +85,17 @@
             <h2>Box Transition Glow</h2>
           </div>
           <div class="grid-content">
-            <p>Description of the snippet</p>
-            <div class="snippet-box">snippet code</div>
+            <p>Use transition and box shadows to glow on hover.</p>
+            <div class="snippet-box"><pre>
+.code-card .card-header {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover, .code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px grey, 0 0 15px grey;
+}
+            </pre></div>
           </div>
         </div>
 
@@ -74,8 +104,14 @@
             <h2>Overlay Card with Title</h2>
           </div>
           <div class="grid-content">
-            <p>Description of the snippet</p>
-            <div class="snippet-box">snippet code</div>
+            <p>Use position properties and negative margins to raise 
+              elements higher than their natural starting point.</p>
+            <div class="snippet-box"><pre>
+.card-header {
+  position: relative;
+  margin-top: -20px;
+}
+            </pre></div>
           </div>
         </div>
 
