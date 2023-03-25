@@ -34,7 +34,6 @@ header p {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    grid-template-columns: 320px 320px 320px;
     flex-wrap: wrap;
     width: 80%;
     background-color: var(--dark);
@@ -61,13 +60,11 @@ header p {
     border-color: var(--light);
     background-color: var(--dark);
     color: var(--medium);
-    z-index: 10;
     position: absolute;
     margin-top: -35px;
 }
 
 .grid-content {
-    flex-direction: column;
     margin-top: 20px;
 }
 
