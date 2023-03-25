@@ -26,6 +26,7 @@ header p {
     margin: auto;
     color: var(--light);
     background-color: var(--dark);
+    line-height: 1.5;
 }
 
 
@@ -78,6 +79,7 @@ header p {
 .grid-box p {
     display: block;
     color: var(--light);
+    line-height: 1.25;
 }
 
 .snippet-box {
@@ -95,4 +97,5 @@ pre {
     color: var(--light);
     white-space: pre-wrap;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 1.25;
 }
