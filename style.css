@@ -5,8 +5,9 @@
   --light: #fff;
   --radius: 5px;
   font-size: 14px;
-  background-color: var(--dark);}
+  background-color: var(--dark);
 }
+
 
 header {
  
